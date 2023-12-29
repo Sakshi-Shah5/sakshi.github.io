@@ -1,0 +1,538 @@
+.navbar-toggler:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  background: none;
+}
+
+#index2 .navbar-light .navbar-toggler {
+  color: #fff;
+  outline: 0;
+}
+
+#index3 .navbar-light .navbar-toggler,
+#index4 .navbar-light .navbar-toggler {
+  color: #fff;
+  outline: 0;
+}
+
+.navbar-light .navbar-toggler {
+  color: #fff;
+  outline: 0;
+}
+
+.navbar-toggler i {
+  font-size: 28px;
+}
+
+.nav-bg i {
+  color: #fff;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+@media (max-width: 1380px) {
+  .row {
+    padding-top: 35px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-light .navbar-nav .nav-link {
+    margin: 18px;
+    color: #fff;
+    line-height: 0;
+  }
+
+  .nav-bg {
+    padding-left: 12px;
+  }
+
+  .menu-item {
+    background: #101822;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .navbar::after {
+    display: none;
+  }
+
+  .navbar-light .navbar-brand {
+    color: #fff;
+  }
+
+  .navbar-light .navbar-brand:hover {
+    color: #fff;
+  }
+
+  .nav-bg .navbar-brand:hover {
+    color: #fff;
+  }
+
+  .nav-bg .navbar-brand {
+    color: #fff;
+  }
+
+  .navbar-light .navbar-nav .nav-link.active::after {
+    opacity: 0;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover:after {
+    opacity: 0;
+  }
+
+  .nav-bg .bor {
+    background: none;
+  }
+
+  .menu-item .bor {
+    color: #a62257;
+  }
+
+  .bor::after {
+    display: none;
+  }
+}
+
+/* .about{
+      width: 100%;
+    padding: 1.5em;
+    font-size: 1em;
+    font-variant: contextual;
+    text-transform: none;
+    color: #bbbcbe;
+} */
+
+@media (max-width: 1000px) and (min-width: 575px) {
+  #text {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 575px) {
+  .dropboxx,
+  .dropboxx2 {
+    font-size: 15px;
+  }
+
+  #banner {
+    padding: 0px 0 93px;
+  }
+
+  #text-down {
+    font-size: 1rem !important;
+  }
+
+  .banner-txt h3 {
+    font-size: 30px !important;
+  }
+
+  .banner-txt h1 {
+    font-size: 20px !important;
+  }
+
+  .banner-txt {
+    padding-top: 10px;
+  }
+
+  .navbar-toggler i {
+    font-size: 23px;
+  }
+
+  .navbar-light .navbar-brand {
+    font-size: 20px;
+  }
+
+  #banner::before,
+  .mob-hide,
+  .mob-img-hide,
+  #team::before,
+  #team::after,
+  #review::after,
+  .design-layer {
+    display: none;
+  }
+
+  .design-layer::after {
+    top: 690px;
+    right: -35px;
+  }
+
+  .design-layer::before {
+    top: 730px;
+    right: -35px;
+  }
+
+  .unique-style:before,
+  .unique-style2:before,
+  .unique-style:after,
+  .unique-style2:after {
+    display: none;
+  }
+
+  .unique-style3::after {
+    top: -5px;
+  }
+
+  .unique-style3::before {
+    top: -12px;
+  }
+
+  .over-item {
+    text-align: center !important;
+    padding: 35px 14px;
+  }
+
+  .txt-right p {
+    padding-left: 0;
+  }
+
+  .txt-left p {
+    padding-right: 0;
+  }
+
+  #about {
+    padding: 80px 0;
+  }
+
+  .about-pa {
+    padding-top: 0;
+  }
+
+  .about-txt h3 {
+    font-size: 24px;
+  }
+
+  .list {
+    margin-left: 1em;
+  }
+
+  .mob-mar-top,
+  .g-mar {
+    margin-top: 30px;
+  }
+
+  .mob-mar-bottom {
+    margin-bottom: 30px;
+  }
+
+  #team {
+    padding: 60px 0;
+  }
+
+  .team-pa {
+    padding-top: 65px;
+  }
+
+  .team-item {
+    padding-top: 45px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #banner {
+    padding: 145px 0 100px;
+  }
+
+  .banner-txt {
+    padding-top: 85px;
+  }
+
+  #banner::before {
+    display: none;
+  }
+
+  .over-item p {
+    font-size: 16px;
+  }
+
+  .design-layer::before {
+    top: 765px;
+  }
+
+  .design-layer::after {
+    top: 717px;
+  }
+
+  .over-item {
+    padding: 30px 25px;
+  }
+
+  .over-item h3 {
+    font-size: 23px;
+  }
+
+  .unique-style:before,
+  .unique-style2:before,
+  .unique-style:after,
+  .unique-style2:after {
+    display: none;
+  }
+
+  #about {
+    padding: 60px 0;
+  }
+
+  .about-item,
+  .about-txt {
+    padding-top: 75px;
+  }
+
+  .team-item h3 {
+    font-size: 22px;
+  }
+
+  #team::after {
+    top: 475px;
+    left: -49px;
+    height: 125px;
+  }
+
+  #team::before {
+    top: 510px;
+    left: -49px;
+    height: 125px;
+  }
+
+  .team-item img {
+    border: 4px solid #a62257;
+  }
+
+  .footer-social {
+    padding-bottom: 35px;
+  }
+
+  #footer {
+    padding: 120px 0 80px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #banner::before {
+    display: none;
+  }
+
+  .design-layer::before {
+    top: 685px;
+  }
+
+  .design-layer::after {
+    top: 727px;
+  }
+
+  .unique-style:before,
+  .unique-style2:before,
+  .unique-style:after,
+  .unique-style2:after {
+    display: none;
+  }
+
+  .over-item {
+    padding: 35px 24px;
+  }
+
+  .about-txt h3 {
+    font-size: 21px;
+  }
+
+  .counter-1 span {
+    font-size: 13px;
+  }
+
+  .about-txt p {
+    padding-bottom: 45px;
+  }
+
+  #team::before {
+    top: 530px;
+  }
+
+  #team::after {
+    top: 488px;
+  }
+
+  .footer-social {
+    padding-top: 11px;
+    padding-bottom: 40px;
+  }
+
+  .links h3 {
+    font-size: 19px;
+  }
+
+  #footer {
+    padding: 115px 0 75px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #banner::before {
+    display: none;
+  }
+
+  .sp-img {
+    height: 277px;
+  }
+
+  .sp-img2 {
+    height: 286px;
+  }
+
+  .unique-style:before,
+  .unique-style2:before,
+  .unique-style:after,
+  .unique-style2:after {
+    display: none;
+  }
+
+  #team::before {
+    top: 600px;
+  }
+
+  #team::after {
+    top: 562px;
+  }
+
+  .links h3 {
+    font-size: 18px;
+  }
+
+  .footer-social {
+    padding-top: 5px;
+  }
+}
+
+
+
+/* foorter icons */
+
+.footer-list {
+  position:absolute;
+  top:100%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  margin:0;
+  padding:0;
+  display:flex;
+}
+
+.footer-list li {
+  list-style: none;
+}
+
+.footer-list li a {
+  position: relative;
+  width:40px;
+  height:40px;
+  display:block;
+  text-align:center;
+  margin:0 10px;
+  border-radius: 50%;
+  /* padding: 3px; */
+  box-sizing: border-box;
+  text-decoration:none;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: .5s;
+}
+
+.footer-list li a:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-decoration:none;
+}
+
+.footer-list li a .fab {
+  widht: 100%;
+  height:100%;
+  display:block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size:24px;
+  color: #262626;
+  transition: .5s;
+}
+
+.footer-list li:nth-child(n) a:hover .fab {
+  color: #3b5998;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
+
+
+.gallery-item div{
+ position: sticky;
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ /* -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear; */
+}
+
+.gallery-item:hover{
+ cursor: pointer;
+}
+
+.gallery-item:hover div{
+ /* width: 100%; */
+ padding-left: 25%;
+ padding-bottom: 5%;
+  padding-top: 5%;
+ /* padding: 8px 15px; */
+ /* margin-left: 20%; */
+ visibility: visible;
+ opacity: 0.7; 
+}
